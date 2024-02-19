@@ -3,7 +3,8 @@ title: "【2024初頭】新規開発で使ってみたいモダンフロント�
 emoji: "💮"
 type: "tech" # tech: 技術記事 / idea: アイデア
 topics: ["next", "bun", "turborepo", "biome", "mantine"]
-published: false
+published: true
+published_at: 2024-02-20 08:00
 publication_name: ficilcom
 ---
 
