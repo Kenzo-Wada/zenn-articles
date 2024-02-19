@@ -1,5 +1,5 @@
 ---
-title: "【2024初頭】抑えておきたい最新Web技術"
+title: "【2024初頭】新規開発で使ってみたいモダンフロントエンド最前線"
 emoji: "💮"
 type: "tech" # tech: 技術記事 / idea: アイデア
 topics: ["next", "bun", "turborepo", "biome", "mantine"]
@@ -12,10 +12,10 @@ publication_name: ficilcom
 弊社で実験的に導入を始めている、2024初頭時点で今後に期待が高まる最新のweb技術についてまとめています。
 新規プロダクトの技術選定に迷っている方などにおすすめです。
 
-## [TurboRepo](https://turbo.build/repo) - Monorepo管理
+## [Turborepo](https://turbo.build/repo) - Monorepo管理
 
 モノレポ構成における懸念点の一つとして、プロダクトが大きくなるにつれてビルド時間が膨大になって来る点です。
-Turborepoは変更があった部分にのみビルドを行うため、大幅な時間短縮になります。
+TurborepoはRust製、並列化、差分ビルド、Remote Cashingなど、肥大化しがちなmonorepoのビルド時間を短縮するメソッドがたくさん詰まっています。
 
 https://turbo.build/repo
 
@@ -29,7 +29,7 @@ pnpmやyarnと比較してnpm installなどの時間が短縮され、開発体�
 
 https://bun.sh/
 
-## [Proto](https://moonrepo.dev/proto) - Version Manager
+## [proto](https://moonrepo.dev/proto) - Version Manager
 
 Node.jsのバージョン管理ツールとしてはVoltaやnodenvなどがありますが、bunのバージョン管理ツールとしてはprotoがあります。
 Protoはbunのバージョン管理ツールと言うわけではなく、様々なToolのバージョン管理ができるので、筆者は思い切って諸々の管理をProtoへ移行しました！
@@ -49,19 +49,23 @@ https://biomejs.dev/ja/
 Next.jsを用いて開発する際、emotionなどのCSS-in-JS依存なUIライブラリとRSCの相性が悪く悩みがちです。
 とはいえ、RadixのようなヘッドレスなUIライブラリはいちいち自前のcssを当てるのが面倒くさいという悩みも...。
 そこでおすすめするMantineは、豊富なコンポーネントを提供してくれている、CSS ModulesベースのUIライブラリです。
+Mantine v6以前はemotion依存でしたが、v7でCSS Modulesへ置き換わり、RSCとの相性がよくなりました。
 現在は、Rechartsをwrapした@mantine/chartsというChartライブラリも絶賛実装中のようで、より一層使いみちの幅が広がりそうです。
+筆者もときどきcommitしたりissueをあげており、おすすめのライブラリの一つになります！
 
 https://mantine.dev/
 
-## [Neon](https://neon.tech/) - DB
+## [v0]() = UIデザイン
 
-サーバーレスなフルマネージドDBになります。
-ブラウザ上で管理ができるリッチなUIが提供されている他、DBにブランチ機能があることが画期的です。
-注意点として、まだ日本リージョンが無いので今後追加してくれることを願います。
+プロンプトからUIでざいんをさ作成してくれるサービスです。
+ただ画面を作るだけでなく、コードも出力してくれるのもとても便利。
+文字によるプロンプトだけでなく、画像からUIも作成してくれる機能もあるので、筆者は手書きのワイヤーフレームを読み込ませてデザインの清書に活用しています！
 
-https://neon.tech/
+https://v0.dev/
+
 
 ## 最後に
+
 2023年は数多くの新しい技術が出てきており、2024年にもとても期待が高まります。
 ここで紹介した技術は、まだ日が浅いこともあり未知のバグが数多く存在します。
 ぜひ、活用しながらバグを見つけたらIssueを起票してあげて、より今後の発展にみなさんで貢献していきましょう！
