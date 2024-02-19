@@ -48,16 +48,16 @@ https://biomejs.dev/ja/
 
 Next.jsを用いて開発する際、emotionなどのCSS-in-JS依存なUIライブラリとRSCの相性が悪く悩みがちです。
 とはいえ、RadixのようなヘッドレスなUIライブラリはいちいち自前のcssを当てるのが面倒くさいという悩みも...。
+
 そこでおすすめするMantineは、豊富なコンポーネントを提供してくれている、CSS ModulesベースのUIライブラリです。
-Mantine v6以前はemotion依存でしたが、v7でCSS Modulesへ置き換わり、RSCとの相性がよくなりました。
-現在は、Rechartsをwrapした@mantine/chartsというChartライブラリも絶賛実装中のようで、より一層使いみちの幅が広がりそうです。
+Mantine v6以前はemotion依存でしたが、v7でCSS Modulesへ置き換わり、RSCとの相性がよくなりました。現在は、Rechartsをwrapした@mantine/chartsというChartライブラリも絶賛実装中のようで、より一層使いみちの幅が広がりそうです。
 筆者もときどきcommitしたりissueをあげており、おすすめのライブラリの一つになります！
 
 https://mantine.dev/
 
-## [v0]() = UIデザイン
+## [v0](https://v0.dev/) - UIデザイン
 
-プロンプトからUIでざいんをさ作成してくれるサービスです。
+プロンプトからUIデザインを作成してくれるAIです。
 ただ画面を作るだけでなく、コードも出力してくれるのもとても便利。
 文字によるプロンプトだけでなく、画像からUIも作成してくれる機能もあるので、筆者は手書きのワイヤーフレームを読み込ませてデザインの清書に活用しています！
 
