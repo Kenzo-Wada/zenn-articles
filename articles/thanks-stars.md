@@ -35,6 +35,8 @@ Rustで書いた理由は単純に普段から筆者が良くしゃべる言語�
 | ------------------------ | -------------------------------------------------------------------------- |
 | **Rust / Cargo**         | `Cargo.lock`, `Cargo.toml`                                                 |
 | **Node.js**              | `package.json`                                                             |
+| **Deno**                 | `deno.lock`,`deno.json(c)`                                                 |
+| **jsr**                  | `jsr.json`                                                                 |
 | **Gradle (Java/Kotlin)** | `build.gradle`, `build.gradle.kts`, `gradle.lockfile`                      |
 | **Python**               | `pyproject.toml`, `requirements.txt`, `Pipfile`, `Pipfile.lock`, `uv.lock` |
 | **R (renv)**             | `renv.lock`                                                                |
