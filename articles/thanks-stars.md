@@ -51,7 +51,7 @@ Rustで書いた理由は単純に普段から筆者が良くしゃべる言語�
 ```bash
 # brew
 brew tap Kenzo-Wada/thanks-stars
-brew install Kenzo-Wada/thanks-stars/thanks-stars
+brew install Kenzo-Wada/thanks-stars
 # npm
 npm install -g thanks-stars
 # cargo
