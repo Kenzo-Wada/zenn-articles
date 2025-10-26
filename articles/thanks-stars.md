@@ -62,7 +62,14 @@ cargo install thanks-stars
 
 ## 実行方法
 
-プロジェクトのルートで実行するだけです。
+はじめに、githubのtokenで認証をしてください。
+下記のコマンドで対話形式に流し込めます。流し込んだtokenは`.config/thanks-stars/config.toml`へ保存されます。
+
+```bash
+thanks-stars auth
+```
+
+あとは、プロジェクトのルートで実行するだけです。
 
 ```bash
 cd your-project
